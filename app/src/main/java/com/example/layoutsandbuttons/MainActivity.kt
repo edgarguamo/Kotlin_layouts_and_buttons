@@ -27,6 +27,7 @@ class MainActivity : AppCompatActivity() {
         btnrest.setOnClickListener{tvresult.text = (etnum1.text.toString().toInt() - etnum2.text.toString().toInt()).toString()}
         btnmul.setOnClickListener{tvresult.text = (etnum1.text.toString().toInt() * etnum2.text.toString().toInt()).toString()}
         btndiv.setOnClickListener{tvresult.text = (etnum1.text.toString().toInt() / etnum2.text.toString().toInt()).toString()}
+        println("pipo")
 
     }
 
